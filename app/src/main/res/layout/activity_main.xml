@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="GAME LOGIN"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="Username"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="START GAME"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#4FACFE"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
